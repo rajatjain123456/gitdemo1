@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,IE=8,IE=9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>RBL Landing Page</title>
+</head>
+<body>
+    <nav class="navbar mdm_nav">
+        <a href="#" class="navbar-brand">
+            <img src="assets/images/logo.svg" alt="Logo">
+        </a>
+        <div class="mdm_nav-head">
+            <h4 class="text-uppercase">Heading</h4>
+            <h6>Master Data Management</h6>
+        </div>
+        <div class="mdm_nav-head-right">
+            <a href="login.html">
+                <img src="assets/images/logout.svg" alt="Logout">
+            </a>
+        </div>
+    </nav>
+    <main class="mdm_wrapper">
+        <section class="rbl_home">
+            <div class="alert rbl_alert user-success-alert fade show" role="alert">
+                <p>Login Successful</p>
+                <button type="button" class="close" data-dismiss="alert"></button>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="rbl_home-box">
+                            <figure>
+                                <img src="assets/images/user.png" alt="Add User">
+                            </figure>
+                            <h4>Add Usersss</h4>
+                            <a class="overlay" href="add-user.html"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="rbl_home-box rbl_home-box-upload">
+                            <figure>
+                                <img src="assets/images/upload.png" alt="File upload">
+                            </figure>
+                            <h4>Bulk Upload</h4>
+                            <input type="file" name="myfile" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="rbl_home-box">
+                            <figure>
+                                <img src="assets/images/search.png" alt="Search User">
+                            </figure>
+                            <h4>Search User</h4>
+                            <a class="overlay" href="search-user.html"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="rbl_home-box">
+                            <figure>
+                                <img src="assets/images/checked-box.png" alt="Approve user">
+                            </figure>
+                            <h4>Approve User</h4>
+                            <a class="overlay" href="approve-user.html"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p class="py-3 mb-0 text-right">Copyright @ 2021, RBLfinserve</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Loader starts -->
+        <div class="rbl_loader" hidden>
+            <div class="spinner-border" role="status"></div>
+        </div>
+        <!-- Loader Ends -->
+
+    </main>
+
+    <!-- Js libraries -->
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
